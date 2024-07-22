@@ -22,7 +22,7 @@ def bfs(maze, start, end):
         
         for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:
             next_node = (x + dx, y + dy)
-            if 0 <= next_node[0] < rows and 0 <= next_node[1] < cols and maze[next_node[0]][next_node[1]] == 0 next_node not in visited;
+            if 0 <= next_node[0] < rows and 0 <= next_node[1] < cols and maze[next_node[0]][next_node[1]] == 0 and next_node not in visited:
                 queue.append((next_node, path + [next_node]))
                 visited.add(next_node)
     
