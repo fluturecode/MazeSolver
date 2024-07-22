@@ -58,3 +58,17 @@ MazeSolver/
 ├── maze_solver_env/     # Virtual environment directory
 ├── README.md            # Project documentation
 └── maze_solver.py       # Main script for maze solving
+
+How it Works
+
+The maze_solver.py script defines a maze using a 2D grid where 1 represents walls and 0 represents paths. It then uses BFS and DFS algorithms to find paths from the start point (0, 0) to the endpoint (4, 4). The results are printed to the console and visualized using Matplotlib.
+
+Dependencies
+
+	•	Python 3.6+
+	•	NumPy
+	•	Matplotlib
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
